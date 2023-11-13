@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+ body {
+    padding: 0;
+    margin: 0;
+ }
+nav {
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height: 90px;
+}
+.logo img {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+}
+.logo {
+    font-size: 40px;
+    color: #2F59A7;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'poppins', 'sans-serif';
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.menu {
+    margin: -20px;
+    padding: -30px;
+    margin-right: 30px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:flex-end;
+    gap: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav ul {
+    text-decoration: none;
+    display: flex;
+}
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    gap: 30px;
+    margin: 40px;
+}
+nav a {
+text-transform: capitalize;
+font-family: 'roboto flex';
+    color: black;
+    font-weight: bold;
+   text-decoration: none;
+   border-bottom: 2px solid transparent; 
+   transition: border-bottom 0.3s ease;
+}
+nav a:hover {
+    border-bottom: 2px solid #2F59A7; 
+    color: #0076f0;
+
+}
+
+/*content*/
+.content-container {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+.content {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    font-family: 'roboto flex',sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 1010px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flexbox;
+}
+.content h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #2F59A7;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'poppins', 'sans-serif';
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+img {
+    width: 23em;
+    height:23em ;
+    float: right;
+    margin-right: 30px;
+    
+
+}
+.konten {
+
+    
+}
+.content-2 {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'roboto flex',sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 950px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flexbox;
+    float: right;
+    margin-right: 50px;
+}
+.content-2 h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #2F59A7;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'poppins', 'sans-serif';
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+ .foto {
+    width: 25em;
+    height:25em ;
+    float: left;
+    margin-left: 40px;
+background-color: #ffffff;}
+
+
+.team-container{
+    background-color: #f3f3ff;
+    padding: 50px;
+    
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1px;
+    margin: 80px 1px;
+}
+
+.card{
+    width: 280px;
+    margin:10px;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 0 #0076f0;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 7px 0 grey;
+    background-color: #0076f0;
+}
+
+.card:hover .card-body h3, .card:hover .card-body p, .card:hover .card-socmed i{
+    color: #eee;
+}
+
+.card-img img{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: -30px auto 0px auto;
+}
+
+.card-body{
+    text-align: center;
+    padding: 0;
+    font-family: 'roboto flex' , 'sans serif';
+}
+
+.card-body h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    font-family: poppins;
+}
+
+.team-position{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 0;
+    color: #7a7a7a;
+}
+
+.text-card{
+    text-align: center;
+}
+
+.card-socmed{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 20px;
+}
+
+.card-socmed i{
+    font-size: 1.5rem;
+    color: #7a7a7a;
+}
+
+.card-socmed i:hover{
+    color: #0076f0;
+}
+
+.team-container {
+font-size: 30px;
+font-family: poppins;
+}
+
+.text-blue{
+    color:#2F59A7;}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+   height: 50px;
+    clear: both;
+    position: relative;
+    height: 100px;
+    }
+    @media (max-width: 599px) {
+        nav {
+            display: none;
+            position: relative;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+        }
+
+        nav ul li {
+            margin-right: 0;
+            margin-bottom: 5px;
+        }
+
+        .menu-toggle {
+            display: block;
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .logo {
+            display: none;
+        }
+        .content-container {
+            padding: 10px;
+        }
+        .img {
+            display: hide;
+        }
+    }
+</style>
